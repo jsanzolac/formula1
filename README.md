@@ -1,5 +1,5 @@
 # Formula 1 data analysis
-Analysis of Formula 1 data in a Databricks based Spark environment
+Analysis of Formula 1 data in a Databricks environment with the aim of train and develop AWS, Spark and SCALA skills.
 
 # ELT Process
 - Following a lakehouse design data is Extracted a Loaded into the system.
