@@ -15,8 +15,8 @@ except:
 aws_bucket_name = "f1-datalake/silver"
 mount_name = "silver"
 
-access_key = "AKIA5U2XQEH7PGWG7SVN" 
-secret_key = "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"
+access_key = "" 
+secret_key = ""
 try:
     dbutils.fs.mount(f"s3n://{access_key}:{secret_key}@{aws_bucket_name}", f"/mnt/{mount_name}")
 except:
